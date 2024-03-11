@@ -13,7 +13,7 @@ The project is deployed and accessible at [HyperGroVision](https://hypergrovisio
 
 Experience the Crypto Stock Dashboard in action and explore its features.
 
-[Watch Demo Video]().
+[Watch Demo Video](https://drive.google.com/file/d/1U-IbCJ8kpfinbpmsRU0URpnQDuOOdVbj/view?usp=sharing).
 
 ## API Usage
 
