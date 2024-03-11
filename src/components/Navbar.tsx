@@ -21,7 +21,7 @@ const Navbar: React.FC<NavbarProps> = () => {
     <Container className="sticky top-0 h-14 z-10">
       <Wrapper className="flex items-center justify-end h-full px-5 relative text-5">
         <Search className="flex m-auto">
-          <span style={{ fontFamily: "Lugrasimo, cursive", fontWeight: "bold", letterSpacing: "1px" }}>HyperGroTube</span>
+          <span style={{ fontFamily: "Lugrasimo, cursive", fontWeight: "bold", letterSpacing: "1px" }}>HyperGroVision</span>
         </Search>
         {tubeToken ? (
           <div className="flex gap-x-2.5 mr-0">
