@@ -15,7 +15,7 @@ const Home: React.FC<HomeProps> = () => {
    const [loading, setLoading] = useState<boolean>(true);
    const toast = useToast();
 
-   const getData = async (arg = {}) => {
+   const getData = async () => {
       await axios.get(`https://internship-service.onrender.com/videos?page=${page}`)
       
          .then((res) => {

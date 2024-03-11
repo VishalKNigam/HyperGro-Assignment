@@ -1,30 +1,45 @@
-# React + TypeScript + Vite
+# HyperGroVision
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+HyperGroVision is a responsive video player app fetching content from an API, offering seamless navigation through a diverse video library. Users can engage deeply by liking, commenting, and customizing themes, while login functionality ensures personalized experiences. With pagination for efficient browsing, HyperGroVision redefines video streaming, merging advanced technology with user-centric design for an immersive viewing journey.
 
-## Expanding the ESLint configuration
+## Deployment
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+The project is deployed and accessible at [HyperGroVision](https://hypergrovision.vercel.app/).
 
-- Configure the top-level `parserOptions` property like this:
+## Demo Video
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+Experience the Crypto Stock Dashboard in action and explore its features.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+[Watch Demo Video]().
+
+## API Usage
+
+- https://internship-service.onrender.com/videos
+
+## Features
+
+- Seamless navigation through a diverse video library
+- Like and comment on videos for enhanced engagement
+- Customizable themes to suit your preferences
+- Secure login functionality with local storage
+- Efficient pagination for smooth browsing
+
+## Technologies Used
+
+- React
+- Tailwind CSS
+- TypeScript
+- Styled Components
+- react-icons
+
+## Getting Started
+
+1. Clone the repository: `git clone https://github.com/VishalKNigam/HyperGro-Assignment`
+2. Install dependencies: `npm install`
+3. Start the development server: `npm run dev`
+
+**Thank you for your support! We welcome your feedback.**
+

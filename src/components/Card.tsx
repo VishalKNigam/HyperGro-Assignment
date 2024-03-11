@@ -3,7 +3,6 @@ import { useNavigate } from "react-router-dom";
 import styled from "styled-components";
 
 interface CardProps {
-  type?: any;
   id: string;
   title: string;
   name: string;
@@ -14,7 +13,7 @@ interface CardProps {
   creatorName:string;
 }
 
-const Card: React.FC<CardProps> = ({ type, id, title, name, pic, thumbnail, vidUrl, desc, creatorName }) => {
+const Card: React.FC<CardProps> = ({id, title, name, pic, thumbnail, vidUrl, desc, creatorName }) => {
   const navigate = useNavigate();
 
   const handleProceed = () => {
